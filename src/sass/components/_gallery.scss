@@ -1,0 +1,14 @@
+.gallery-box-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  // gap: 10px;
+  .gallery-box {
+    @media #{$minSmall} {
+      width: (96%/3);
+    }
+    .player-img {
+      max-width: 100%;
+    }
+  }
+}

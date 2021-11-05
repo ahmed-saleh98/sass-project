@@ -1,0 +1,49 @@
+.services-box-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+  @media #{$maxSmall} {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .service-box {
+    .service-title {
+      font-size: 25px;
+      span {
+        margin: 0 10px;
+      }
+      i {
+        @extend %fa-icon;
+        @extend .fas;
+        font-size: 35px;
+        @media #{$maxSmall} {
+          display: block;
+          margin-bottom: 15px;
+        }
+      }
+      .globe {
+        &:before {
+          content: fa-content($fa-var-globe-africa);
+        }
+      }
+      .cogs {
+        &:before {
+          content: fa-content($fa-var-cogs);
+        }
+      }
+      .users {
+        &:before {
+          content: fa-content($fa-var-users);
+        }
+      }
+    }
+    .service-desc {
+      line-height: 1.5;
+      color: $pColor;
+    }
+    .service-link {
+      color: $redColor;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.players-box-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  @media #{$maxMobile} {
+    text-align: center;
+  }
+  .player-box {
+    @media #{$minSmall} {
+      width: (98%/2);
+    }
+    @media #{$minMedium} {
+      width: (96%/3);
+    }
+    .player-img {
+      max-width: 100%;
+    }
+    .player-title {
+      font-weight: normal;
+      span {
+        font-weight: bold;
+      }
+    }
+    .player-desc {
+      line-height: 1.5;
+      color: $pColor;
+    }
+    .player-link {
+      color: $redColor;
+      cursor: pointer;
+    }
+  }
+}
