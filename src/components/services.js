@@ -15,7 +15,9 @@ const Services = () => (
             obcaecati cupiditate facere suscipit quis, reprehenderit repellat
             eveniet quisquam laudantium neque, veniam rerum consequatur.
           </p>
-          <a className="service-link"> Read more ...</a>
+          <a href className="service-link">
+            Read more ...
+          </a>
         </div>
         <div className="service-box">
           <h3 className="service-title">
@@ -27,7 +29,9 @@ const Services = () => (
             obcaecati cupiditate facere suscipit quis, reprehenderit repellat
             eveniet quisquam laudantium neque, veniam rerum consequatur.
           </p>
-          <a className="service-link"> Read more ...</a>
+          <a href className="service-link">
+            Read more ...
+          </a>
         </div>
         <div className="service-box">
           <h3 className="service-title">
@@ -39,7 +43,9 @@ const Services = () => (
             obcaecati cupiditate facere suscipit quis, reprehenderit repellat
             eveniet quisquam laudantium neque, veniam rerum consequatur.
           </p>
-          <a className="service-link"> Read more ...</a>
+          <a href className="service-link">
+            Read more ...
+          </a>
         </div>
       </div>
     </div>
